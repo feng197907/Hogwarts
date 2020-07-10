@@ -13,7 +13,7 @@ class Test_Pytest():
     def test_sub(self, cal_demo, a, b, result):
         assert cal_demo.sub(a, b) == result
 
-    @pytest.mark.parametrize('a,b,result', [(3, 10, 30), (2, 8, 14), (4, 8, 32)])
+    @pytest.mark.parametrize('a,b,result', [(3, 10, 30), (2, 8, 14), (4, 8, 30)])
     def test_mult(self, cal_demo, a, b, result):
         assert cal_demo.mult(a, b) == result
 
