@@ -1,0 +1,134 @@
+{
+  "uid" : "332ff0d8c8cbc1ee",
+  "name" : "test_mult[2-8-14]",
+  "fullName" : "testcases.test_func.Test_Pytest#test_mult",
+  "historyId" : "ab20fb020a30ec47adfec0c5a0e9d658",
+  "time" : {
+    "start" : 1594353369420,
+    "stop" : 1594353369420,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 16 == 14\n +  where 16 = <bound method Calculator.mult of <pyCode.calc.Calculator object at 0x107092d68>>(2, 8)\n +    where <bound method Calculator.mult of <pyCode.calc.Calculator object at 0x107092d68>> = <pyCode.calc.Calculator object at 0x107092d68>.mult",
+  "statusTrace" : "self = <testcases.test_func.Test_Pytest object at 0x107092278>, cal_demo = <pyCode.calc.Calculator object at 0x107092d68>, a = 2, b = 8, result = 14\n\n    @pytest.mark.parametrize('a,b,result', [(3, 10, 30), (2, 8, 14), (4, 8, 32)])\n    def test_mult(self, cal_demo,a,b,result):\n>       assert cal_demo.mult(a, b) == result\nE       assert 16 == 14\nE        +  where 16 = <bound method Calculator.mult of <pyCode.calc.Calculator object at 0x107092d68>>(2, 8)\nE        +    where <bound method Calculator.mult of <pyCode.calc.Calculator object at 0x107092d68>> = <pyCode.calc.Calculator object at 0x107092d68>.mult\n\ntestcases/test_func.py:16: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cal_demo",
+    "time" : {
+      "start" : 1594353369419,
+      "stop" : 1594353369419,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "fixture_func",
+    "time" : {
+      "start" : 1594353369419,
+      "stop" : 1594353369419,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 16 == 14\n +  where 16 = <bound method Calculator.mult of <pyCode.calc.Calculator object at 0x107092d68>>(2, 8)\n +    where <bound method Calculator.mult of <pyCode.calc.Calculator object at 0x107092d68>> = <pyCode.calc.Calculator object at 0x107092d68>.mult",
+    "statusTrace" : "self = <testcases.test_func.Test_Pytest object at 0x107092278>, cal_demo = <pyCode.calc.Calculator object at 0x107092d68>, a = 2, b = 8, result = 14\n\n    @pytest.mark.parametrize('a,b,result', [(3, 10, 30), (2, 8, 14), (4, 8, 32)])\n    def test_mult(self, cal_demo,a,b,result):\n>       assert cal_demo.mult(a, b) == result\nE       assert 16 == 14\nE        +  where 16 = <bound method Calculator.mult of <pyCode.calc.Calculator object at 0x107092d68>>(2, 8)\nE        +    where <bound method Calculator.mult of <pyCode.calc.Calculator object at 0x107092d68>> = <pyCode.calc.Calculator object at 0x107092d68>.mult\n\ntestcases/test_func.py:16: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "aac9fc95ac354de2",
+      "name" : "stdout",
+      "source" : "aac9fc95ac354de2.txt",
+      "type" : "text/plain",
+      "size" : 26
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "fixture_func::0",
+    "time" : {
+      "start" : 1594353369425,
+      "stop" : 1594353369425,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_func"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Pytest"
+  }, {
+    "name" : "host",
+    "value" : "bogon"
+  }, {
+    "name" : "thread",
+    "value" : "46427-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_func"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "2"
+  }, {
+    "name" : "b",
+    "value" : "8"
+  }, {
+    "name" : "result",
+    "value" : "14"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "332ff0d8c8cbc1ee.json",
+  "parameterValues" : [ "2", "8", "14" ]
+}
