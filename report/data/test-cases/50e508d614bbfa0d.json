@@ -1,0 +1,137 @@
+{
+  "uid" : "50e508d614bbfa0d",
+  "name" : "test_div[14-7-2]",
+  "fullName" : "testcases.test_func.Test_Pytest#test_div",
+  "historyId" : "b9ca82f029370d7835221786ceec42ef",
+  "time" : {
+    "start" : 1594373023594,
+    "stop" : 1594373023595,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cal_demo",
+    "time" : {
+      "start" : 1594373023593,
+      "stop" : 1594373023593,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "fixture_func",
+    "time" : {
+      "start" : 1594373023593,
+      "stop" : 1594373023593,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "27ea74a761c63c5d",
+      "name" : "stdout",
+      "source" : "27ea74a761c63c5d.txt",
+      "type" : "text/plain",
+      "size" : 26
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "fixture_func::0",
+    "time" : {
+      "start" : 1594373023597,
+      "stop" : 1594373023597,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "除法测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_func"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Pytest"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "51782-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_func"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "14"
+  }, {
+    "name" : "b",
+    "value" : "7"
+  }, {
+    "name" : "result",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9d9eb235108bdc51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594353369444,
+        "stop" : 1594353369444,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "50e508d614bbfa0d.json",
+  "parameterValues" : [ "14", "7", "2" ]
+}

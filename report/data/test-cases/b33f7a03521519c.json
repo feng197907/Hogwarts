@@ -1,0 +1,146 @@
+{
+  "uid" : "b33f7a03521519c",
+  "name" : "test_sub[14-8-9]",
+  "fullName" : "testcases.test_func.Test_Pytest#test_sub",
+  "historyId" : "51cb5cf5939c362e2505d0e166dc1ece",
+  "time" : {
+    "start" : 1594373023527,
+    "stop" : 1594373023527,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 6 == 9\n  +6\n  -9",
+  "statusTrace" : "self = <testcases.test_func.Test_Pytest object at 0x10667e5f8>, fixture_func = <pyCode.calc.Calculator object at 0x10665d128>, a = 14, b = 8, result = 9\n\n    @pytest.mark.parametrize('a,b,result', test_data[1])\n    @allure.feature('减法测试')\n    def test_sub(self, fixture_func, a, b, result):\n>       assert fixture_func.sub(a, b) == result\nE       assert 6 == 9\nE         +6\nE         -9\n\ntestcases/test_func.py:19: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "fixture_func",
+    "time" : {
+      "start" : 1594373023526,
+      "stop" : 1594373023526,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cal_demo",
+    "time" : {
+      "start" : 1594373023525,
+      "stop" : 1594373023526,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 6 == 9\n  +6\n  -9",
+    "statusTrace" : "self = <testcases.test_func.Test_Pytest object at 0x10667e5f8>, fixture_func = <pyCode.calc.Calculator object at 0x10665d128>, a = 14, b = 8, result = 9\n\n    @pytest.mark.parametrize('a,b,result', test_data[1])\n    @allure.feature('减法测试')\n    def test_sub(self, fixture_func, a, b, result):\n>       assert fixture_func.sub(a, b) == result\nE       assert 6 == 9\nE         +6\nE         -9\n\ntestcases/test_func.py:19: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "94b4f14a4c1cc554",
+      "name" : "stdout",
+      "source" : "94b4f14a4c1cc554.txt",
+      "type" : "text/plain",
+      "size" : 26
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "fixture_func::0",
+    "time" : {
+      "start" : 1594373023531,
+      "stop" : 1594373023531,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "减法测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_func"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Pytest"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "51782-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_func"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "14"
+  }, {
+    "name" : "b",
+    "value" : "8"
+  }, {
+    "name" : "result",
+    "value" : "9"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7f2e30c685357ef6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 6 == 9\n +  where 6 = <bound method Calculator.sub of <pyCode.calc.Calculator object at 0x107082518>>(14, 8)\n +    where <bound method Calculator.sub of <pyCode.calc.Calculator object at 0x107082518>> = <pyCode.calc.Calculator object at 0x107082518>.sub",
+      "time" : {
+        "start" : 1594353369406,
+        "stop" : 1594353369406,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b33f7a03521519c.json",
+  "parameterValues" : [ "14", "8", "9" ]
+}
