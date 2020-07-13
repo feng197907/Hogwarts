@@ -3,56 +3,73 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: assert 12 == 9\n +  where 12 = <bound method Calculator.add of <pyCode.calc.Calculator object at 0x107068e48>>(4, 8)\n +    where <bound method Calculator.add of <pyCode.calc.Calculator object at 0x107068e48>> = <pyCode.calc.Calculator object at 0x107068e48>.add",
+      "name" : "AssertionError: assert 12 == 9\n  +12\n  -9",
       "children" : [ {
         "name" : "test_add[4-8-9]",
-        "uid" : "73d493c6fb3a97e1",
-        "parentUid" : "da3a4f77ed5fdd84e4830ce085522781",
+        "uid" : "c07109362d3b701c",
+        "parentUid" : "d0eb5c7539301e3f7901e2b49830a5b8",
         "status" : "failed",
         "time" : {
-          "start" : 1594353369349,
-          "stop" : 1594353369350,
+          "start" : 1594373023468,
+          "stop" : 1594373023469,
           "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "4", "8", "9" ]
       } ],
-      "uid" : "da3a4f77ed5fdd84e4830ce085522781"
+      "uid" : "d0eb5c7539301e3f7901e2b49830a5b8"
     }, {
-      "name" : "AssertionError: assert 6 == 9\n +  where 6 = <bound method Calculator.sub of <pyCode.calc.Calculator object at 0x107082518>>(14, 8)\n +    where <bound method Calculator.sub of <pyCode.calc.Calculator object at 0x107082518>> = <pyCode.calc.Calculator object at 0x107082518>.sub",
+      "name" : "AssertionError: assert 6 == 9\n  +6\n  -9",
       "children" : [ {
         "name" : "test_sub[14-8-9]",
-        "uid" : "cbcc25f7214113cd",
-        "parentUid" : "6061c97d7b6d6ca0160f96538bb7b26c",
+        "uid" : "b33f7a03521519c",
+        "parentUid" : "b79ad2b846a3aeb277b9133b505ec553",
         "status" : "failed",
         "time" : {
-          "start" : 1594353369406,
-          "stop" : 1594353369406,
+          "start" : 1594373023527,
+          "stop" : 1594373023527,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "14", "8", "9" ]
       } ],
-      "uid" : "6061c97d7b6d6ca0160f96538bb7b26c"
+      "uid" : "b79ad2b846a3aeb277b9133b505ec553"
     }, {
-      "name" : "AssertionError: assert 16 == 14\n +  where 16 = <bound method Calculator.mult of <pyCode.calc.Calculator object at 0x107092d68>>(2, 8)\n +    where <bound method Calculator.mult of <pyCode.calc.Calculator object at 0x107092d68>> = <pyCode.calc.Calculator object at 0x107092d68>.mult",
+      "name" : "AssertionError: assert 16 == 14\n  +16\n  -14",
       "children" : [ {
         "name" : "test_mult[2-8-14]",
-        "uid" : "332ff0d8c8cbc1ee",
-        "parentUid" : "819f79cfc6ed853f49299b49551a8f17",
+        "uid" : "9a87c63f58488108",
+        "parentUid" : "e94dcbbff2ab419d098d82ab30bc9ea4",
         "status" : "failed",
         "time" : {
-          "start" : 1594353369420,
-          "stop" : 1594353369420,
+          "start" : 1594373023546,
+          "stop" : 1594373023546,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "2", "8", "14" ]
       } ],
-      "uid" : "819f79cfc6ed853f49299b49551a8f17"
+      "uid" : "e94dcbbff2ab419d098d82ab30bc9ea4"
+    }, {
+      "name" : "AssertionError: assert 32 == 30\n  +32\n  -30",
+      "children" : [ {
+        "name" : "test_mult[4-8-30]",
+        "uid" : "ca56430c5e4f231a",
+        "parentUid" : "2c89218a0515f34200d5c174ce978ce4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1594373023561,
+          "stop" : 1594373023561,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4", "8", "30" ]
+      } ],
+      "uid" : "2c89218a0515f34200d5c174ce978ce4"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
