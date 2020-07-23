@@ -1,64 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bde544bf-eaff-4a1a-8e09-b33784fba8f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/datas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datas/calc.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datas/env.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/test_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/test_open_yaml.py" afterDir="false" />
+    <list default="true" id="bde544bf-eaff-4a1a-8e09-b33784fba8f0" name="Default Changelist" comment="pytest 第二次作业">
+      <change afterPath="$PROJECT_DIR$/datas/calc2.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/2cdd1aa772498405.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/508c8f887ac6ff53.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/8a3c06e3c587b83c.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/aac9fc95ac354de2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/b9ddba6380a87565.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/bcf8309892581b4e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/dd48bee0fa19c685.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/eed64b75b83ddae2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/f1a73ae0831a7ef0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/f7818fbcea8118cb.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/f7b91b249d14dbcb.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/attachments/fb527c124040579f.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/data/behaviors.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/data/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/data/categories.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/data/categories.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/data/packages.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/data/suites.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/data/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/158756995e72b5ab.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/332ff0d8c8cbc1ee.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/4ab83b2a149ecc9e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/73d493c6fb3a97e1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/79a96641f1772565.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/cbcc25f7214113cd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/dc0a46b871498818.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/ddc36c72f7430e41.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/e5d456a9d1df1c7f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/ed43416e034858f3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/f27b786c5a1b1ee5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/test-cases/f4770e5b8227f796.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/data/timeline.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/report/export/influxDbData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/report/export/prometheusData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/history/categories-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/history/duration-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/history/history-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/history/history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/history/retry-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/categories-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/widgets/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/categories.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/duration-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/duration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/history-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/retry-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/severity.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/status-chart.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datas/calc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/datas/calc.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcases/test_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_func.py" afterDir="false" />
     </list>
@@ -69,16 +15,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Hogwarts$pytest_for_test_param_test_param.coverage" NAME="pytest for test_param.test_param Coverage Results" MODIFIED="1594618961507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
+    <SUITE FILE_PATH="coverage/Hogwarts$pytest_for_test_env_test_case.coverage" NAME="pytest for test_env.test_case Coverage Results" MODIFIED="1594624128409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
+    <SUITE FILE_PATH="coverage/Hogwarts$pytest_for_test_func_test_param.coverage" NAME="pytest for test_func.test_param Coverage Results" MODIFIED="1595491125570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
+    <SUITE FILE_PATH="coverage/Hogwarts$pytest_in_test_func_py.coverage" NAME="pytest in test_func.py Coverage Results" MODIFIED="1595492539019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
+    <SUITE FILE_PATH="coverage/Calculator$pytest_in_test_func_py.coverage" NAME="pytest in test_func.py Coverage Results" MODIFIED="1594353682900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
+    <SUITE FILE_PATH="coverage/Hogwarts$pytest_for_test_func_test_div.coverage" NAME="pytest for test_func.test_div Coverage Results" MODIFIED="1595492319312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
+    <SUITE FILE_PATH="coverage/Hogwarts$pytest_for_test_func_test_add.coverage" NAME="pytest for test_func.test_add Coverage Results" MODIFIED="1595491238812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
     <SUITE FILE_PATH="coverage/Calculator$pytest_for_test_func_Test_Pytest_test_add.coverage" NAME="pytest for test_func.Test_Pytest.test_add Coverage Results" MODIFIED="1594352624902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
     <SUITE FILE_PATH="coverage/Hogwarts$pytest_for_conftest_test_param.coverage" NAME="pytest for conftest.test_param Coverage Results" MODIFIED="1594619904422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
     <SUITE FILE_PATH="coverage/Hogwarts$pytest_for_test_func_Test_Pytest_test_add.coverage" NAME="pytest for test_func.Test_Pytest.test_add Coverage Results" MODIFIED="1594611395855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
-    <SUITE FILE_PATH="coverage/Hogwarts$pytest_for_test_func_test_param.coverage" NAME="pytest for test_func.test_param Coverage Results" MODIFIED="1594616744737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
-    <SUITE FILE_PATH="coverage/Hogwarts$pytest_for_test_param_test_param.coverage" NAME="pytest for test_param.test_param Coverage Results" MODIFIED="1594618961507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
-    <SUITE FILE_PATH="coverage/Hogwarts$pytest_in_test_func_py.coverage" NAME="pytest in test_func.py Coverage Results" MODIFIED="1594620460294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
-    <SUITE FILE_PATH="coverage/Hogwarts$pytest_for_test_env_test_case.coverage" NAME="pytest for test_env.test_case Coverage Results" MODIFIED="1594624128409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
-    <SUITE FILE_PATH="coverage/Calculator$pytest_in_test_func_py.coverage" NAME="pytest in test_func.py Coverage Results" MODIFIED="1594353682900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
     <SUITE FILE_PATH="coverage/Hogwarts$pytest_for_test_param_test_add.coverage" NAME="pytest for test_param.test_add Coverage Results" MODIFIED="1594620044036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
     <SUITE FILE_PATH="coverage/Hogwarts$pytest_for_open_yaml_test_demo.coverage" NAME="pytest for open_yaml.test_demo Coverage Results" MODIFIED="1594624456272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
+    <SUITE FILE_PATH="coverage/Hogwarts$pytest_for_test_func_Test_Pytest_test_div.coverage" NAME="pytest for test_func.Test_Pytest.test_div Coverage Results" MODIFIED="1595492352319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-38471740">
@@ -118,40 +67,44 @@
     <session id="900621880">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
           <entry key="ini" value="37" />
-          <entry key="py" value="1237" />
-          <entry key="yaml" value="232" />
+          <entry key="py" value="1695" />
+          <entry key="txt" value="14" />
+          <entry key="yaml" value="301" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Ini" value="37" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="1237" />
-          <entry key="YAML" value="232" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Python" value="1695" />
+          <entry key="YAML" value="301" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ini" value="1" />
           <entry key="py" value="5" />
-          <entry key="yaml" value="2" />
+          <entry key="yaml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Ini" value="1" />
           <entry key="Python" value="5" />
-          <entry key="YAML" value="2" />
+          <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -170,8 +123,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datas/calc.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            <state relative-caret-position="254">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datas/calc2.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -179,8 +141,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testcases/test_func.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-128">
-              <caret line="37" column="52" lean-forward="true" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+            <state relative-caret-position="270">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -191,8 +153,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcases/test_env.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="68">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -209,8 +171,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcases/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="243">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -222,7 +184,7 @@
         <entry file="file://$PROJECT_DIR$/datas/env.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -245,13 +207,14 @@
         <option value="$PROJECT_DIR$/pyCode/calc.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pytest.ini" />
-        <option value="$PROJECT_DIR$/datas/calc.yaml" />
         <option value="$PROJECT_DIR$/testcases/test_param.py" />
         <option value="$PROJECT_DIR$/datas/env.yaml" />
         <option value="$PROJECT_DIR$/testcases/test_env.py" />
-        <option value="$PROJECT_DIR$/testcases/conftest.py" />
         <option value="$PROJECT_DIR$/testcases/open_yaml.py" />
         <option value="$PROJECT_DIR$/testcases/test_open_yaml.py" />
+        <option value="$PROJECT_DIR$/datas/calc2.yaml" />
+        <option value="$PROJECT_DIR$/testcases/conftest.py" />
+        <option value="$PROJECT_DIR$/datas/calc.yaml" />
         <option value="$PROJECT_DIR$/testcases/test_func.py" />
       </list>
     </option>
@@ -262,11 +225,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="113" />
-    <option name="y" value="90" />
-    <option name="width" value="1280" />
-    <option name="height" value="628" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="155" />
+    <option name="y" value="35" />
+    <option name="width" value="1619" />
+    <option name="height" value="806" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -287,18 +250,17 @@
             <path>
               <item name="Hogwarts" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hogwarts" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hogwarts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hogwarts" type="462c0819:PsiDirectoryNode" />
               <item name="datas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hogwarts" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hogwarts" type="462c0819:PsiDirectoryNode" />
               <item name="testcases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hogwarts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hogwarts" type="462c0819:PsiDirectoryNode" />
-              <item name="testcases" type="462c0819:PsiDirectoryNode" />
-              <item name=".pytest_cache" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -311,7 +273,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -325,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for testcases.test_open_yaml.test_demo">
+  <component name="RunManager" selected="Python tests.pytest in test_func.py">
     <configuration default="true" type="tests" factoryName="py.test">
       <module name="Calculator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -342,7 +304,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for conftest.test_param" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_func.Test_Pytest.test_div" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Calculator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -354,11 +316,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;conftest.test_param&quot;" />
+      <option name="_new_target" value="&quot;test_func.Test_Pytest.test_div&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_env.test_case" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_func.test_add" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Calculator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -370,11 +332,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_env.test_case&quot;" />
+      <option name="_new_target" value="&quot;test_func.test_add&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_param.test_add" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_func.test_div" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Calculator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -386,11 +348,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_param.test_add&quot;" />
+      <option name="_new_target" value="&quot;test_func.test_div&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for testcases.test_open_yaml.test_demo" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_func.test_param" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Calculator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -402,7 +364,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testcases.test_open_yaml.test_demo&quot;" />
+      <option name="_new_target" value="&quot;test_func.test_param&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -424,18 +386,18 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.pytest in test_func.py" />
-      <item itemvalue="Python tests.pytest for conftest.test_param" />
-      <item itemvalue="Python tests.pytest for test_param.test_add" />
-      <item itemvalue="Python tests.pytest for test_env.test_case" />
-      <item itemvalue="Python tests.pytest for testcases.test_open_yaml.test_demo" />
+      <item itemvalue="Python tests.pytest for test_func.test_param" />
+      <item itemvalue="Python tests.pytest for test_func.test_add" />
+      <item itemvalue="Python tests.pytest for test_func.Test_Pytest.test_div" />
+      <item itemvalue="Python tests.pytest for test_func.test_div" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for testcases.test_open_yaml.test_demo" />
-        <item itemvalue="Python tests.pytest for test_env.test_case" />
         <item itemvalue="Python tests.pytest in test_func.py" />
-        <item itemvalue="Python tests.pytest for test_param.test_add" />
-        <item itemvalue="Python tests.pytest for conftest.test_param" />
+        <item itemvalue="Python tests.pytest for test_func.Test_Pytest.test_div" />
+        <item itemvalue="Python tests.pytest for test_func.test_div" />
+        <item itemvalue="Python tests.pytest for test_func.test_add" />
+        <item itemvalue="Python tests.pytest for test_func.test_param" />
       </list>
     </recent_temporary>
   </component>
@@ -450,50 +412,57 @@
       <option name="presentableId" value="Default" />
       <updated>1594345295501</updated>
     </task>
+    <task id="LOCAL-00001" summary="pytest 第二次作业">
+      <created>1594633834049</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594633834049</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_env_test_case - 2020.07.13 at 14h 36m 58s.xml">
-      <configuration name="pytest for test_env.test_case" configurationId="tests" />
+    <history-entry file="pytest_for_test_func_test_param - 2020.07.23 at 15h 32m 23s.xml">
+      <configuration name="pytest for test_func.test_param" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_env_test_case - 2020.07.13 at 14h 39m 38s.xml">
-      <configuration name="pytest for test_env.test_case" configurationId="tests" />
+    <history-entry file="pytest_for_test_func_test_param - 2020.07.23 at 15h 58m 46s.xml">
+      <configuration name="pytest for test_func.test_param" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_env_test_case - 2020.07.13 at 14h 43m 48s.xml">
-      <configuration name="pytest for test_env.test_case" configurationId="tests" />
+    <history-entry file="pytest_for_test_func_test_add - 2020.07.23 at 16h 00m 39s.xml">
+      <configuration name="pytest for test_func.test_add" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_env_test_case - 2020.07.13 at 14h 44m 30s.xml">
-      <configuration name="pytest for test_env.test_case" configurationId="tests" />
+    <history-entry file="pytest_for_test_func_Test_Pytest_test_div - 2020.07.23 at 16h 01m 49s.xml">
+      <configuration name="pytest for test_func.Test_Pytest.test_div" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_env_test_case - 2020.07.13 at 14h 47m 27s.xml">
-      <configuration name="pytest for test_env.test_case" configurationId="tests" />
+    <history-entry file="pytest_for_test_func_Test_Pytest_test_div - 2020.07.23 at 16h 14m 56s.xml">
+      <configuration name="pytest for test_func.Test_Pytest.test_div" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_env_test_case - 2020.07.13 at 14h 49m 28s.xml">
-      <configuration name="pytest for test_env.test_case" configurationId="tests" />
+    <history-entry file="pytest_for_test_func_test_div - 2020.07.23 at 16h 17m 32s.xml">
+      <configuration name="pytest for test_func.test_div" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_env_test_case - 2020.07.13 at 14h 51m 05s.xml">
-      <configuration name="pytest for test_env.test_case" configurationId="tests" />
+    <history-entry file="pytest_for_test_func_test_div - 2020.07.23 at 16h 18m 40s.xml">
+      <configuration name="pytest for test_func.test_div" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_env_test_case - 2020.07.13 at 15h 08m 49s.xml">
-      <configuration name="pytest for test_env.test_case" configurationId="tests" />
+    <history-entry file="pytest_for_test_func_Test_Pytest_test_div - 2020.07.23 at 16h 19m 12s.xml">
+      <configuration name="pytest for test_func.Test_Pytest.test_div" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_open_yaml_test_demo - 2020.07.13 at 15h 11m 20s.xml">
-      <configuration name="pytest for open_yaml.test_demo" configurationId="tests" />
+    <history-entry file="pytest_in_test_func_py - 2020.07.23 at 16h 21m 49s.xml">
+      <configuration name="pytest in test_func.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_open_yaml_test_demo - 2020.07.13 at 15h 14m 17s.xml">
-      <configuration name="pytest for open_yaml.test_demo" configurationId="tests" />
+    <history-entry file="pytest_in_test_func_py - 2020.07.23 at 16h 22m 19s.xml">
+      <configuration name="pytest in test_func.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24248926" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5313253" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.55421686" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -502,7 +471,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.47710842" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5421687" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -510,12 +479,39 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2060241" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pytest 第二次作业" />
+    <option name="LAST_COMMIT_MESSAGE" value="pytest 第二次作业" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.virtualenvs/Calculator/lib/python3.6/site-packages/_pytest/main.py">
@@ -539,10 +535,56 @@
     <entry file="file://$PROJECT_DIR$/report/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/Calculator/lib/python3.6/site-packages/_pytest/config/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="1146" column="13" lean-forward="true" selection-start-line="1146" selection-start-column="13" selection-end-line="1147" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/test_param.py" />
+    <entry file="file://$PROJECT_DIR$/testcases/test_open_yaml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/env.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/test_env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pytest.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/calc2.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -555,66 +597,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/datas/calc.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/Calculator/lib/python3.6/site-packages/_pytest/config/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="1146" column="13" lean-forward="true" selection-start-line="1146" selection-start-column="13" selection-end-line="1147" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcases/test_param.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcases/test_env.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/env.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcases/test_open_yaml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcases/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="254">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testcases/test_func.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-128">
-          <caret line="37" column="52" lean-forward="true" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+        <state relative-caret-position="270">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

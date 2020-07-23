@@ -36,12 +36,13 @@ def pytest_collection_modifyitems(
 
 
 # 通过 方法动态的生成测试用例
-# def pytest_generate_tests(metafunc: "Metafunc") -> None:
-#     if "param1" in metafunc.fixturenames:
-#         metafunc.parametrize("param1",
-#                              metafunc.module.mydatas,
-#                              ids=metafunc.module.myids,
-#                              scope='function')
+def pytest_generate_tests(metafunc: "Metafunc") -> None:
+    name = metafunc.function.__name__  # 获取当前case名
+    if "param1" in metafunc.fixturenames and name in metafunc.module.mydatas.keys():
+        metafunc.parametrize("param1",
+                             metafunc.module.mydatas.get(name),  # 根据当前case名获取对应的数据
+                             ids=metafunc.module.myids.get(name),
+                             scope='function')
 
 def pytest_addoption(parser):
     mygroup = parser.getgroup("hogwarts")  # group 将下面所有的 option都展示在这个group下。
